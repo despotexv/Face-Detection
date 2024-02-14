@@ -1,0 +1,9 @@
+
+tensorflow>=2.0
+keras
+opencv-python
+albumentations
+labelme
+numpy
+pandas
+scikit-learn

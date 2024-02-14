@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Detection Project README</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2 { color: #333; }
+        p, ul, li { color: #555; }
+        code { background-color: #eee; padding: 2px 4px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>Face Detection Project README</h1>
+    <h2>Project Overview</h2>
+    <p>The Face Detection project leverages advanced machine learning and computer vision techniques to accurately identify and track human faces in images and video streams. Utilizing a combination of TensorFlow, Keras, and OpenCV, this project offers a robust solution for applications requiring real-time face detection capabilities. For spacial complexity reason, the original and augmented dataset were left out of the git repository.</p>
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>Real-Time Detection</strong>: Detect faces in real-time with high accuracy in video streams using a pre-trained deep learning model.</li>
+        <li><strong>Static Image Support</strong>: Apply face detection to static images, allowing for a wide range of image processing applications.</li>
+        <li><strong>Advanced Machine Learning Models</strong>: Incorporates cutting-edge models like VGG16 for feature extraction, combined with custom layers for efficient face detection.</li>
+        <li><strong>Data Augmentation</strong>: Implements data augmentation to enhance the diversity of training data and improve model robustness.</li>
+        <li><strong>Easy-to-Use</strong>: Designed with simplicity in mind, the project includes user-friendly scripts for quick setup and deployment.</li>
+    </ul>
+    <h2>Installation Guide</h2>
+    <ol>
+        <li><strong>Clone the Repository</strong>: Start by cloning this repository to your local machine.</li>
+        <li><strong>Install Dependencies</strong>: Run the following command to install the necessary Python dependencies:<br>
+            <code>pip install -r requirements.txt</code>
+        </li>
+    </ol>
+    <h2>How to Use</h2>
+    <p>- <strong>For Real-Time Video</strong>: Launch face detection in real-time video streams with the <code>face_detection_realtime.py</code> script.<br>
+    - <strong>For Static Images</strong>: Use the <code>face_detection_image.py</code> script to detect faces in individual images. Provide the image path as an argument.</p>
+    <h2>Prerequisites</h2>
+    <p>Ensure you have the following installed:</p>
+    <ul>
+        <li>Python 3.6-3.9</li>
+        <li>TensorFlow 2.x</li>
+        <li>Keras</li>
+        <li>OpenCV</li>
+        <li>Albumentations (for data augmentation)</li>
+        <li>LabelMe (for image annotation)</li>
+    </ul>
+    <h2>Preparing Your Dataset</h2>
+    <p>This project includes scripts for dataset preparation, making it easy to collect, annotate, and augment images:</p>
+
+    <h2>Training and Evaluation</h2>
+    <p>- Train the face detection model. This script also handles dataset partitioning.<br>
+    - Model performance can be assessed based on accuracy and loss metrics, calculated on a dedicated test set.</p>
+    <h2>License</h2>
+    <p>This project is made available under the MIT License, promoting open and reproducible scientific research.</p>
+</body>
+</html>
